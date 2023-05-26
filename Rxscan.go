@@ -16,7 +16,7 @@ import (
 )
 
 func main(){
-        fmt.Println("frequester tool By tojojo !!")
+        fmt.Println("frequester tool By tojojo and update by enterlectury !!")
         fmt.Println("\\__(-_-)__/")
 
         colorReset := "\033[0m"
