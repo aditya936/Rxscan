@@ -1,5 +1,11 @@
 # Rxscan
 this tool help to find reflected xss when you have huge llist of domains .This is a simple tool for sending HTTP requests to domains and checking for potential Cross-Site Scripting (XSS) vulnerabilities. It utilizes goroutines for concurrency and handles request and response details.
+connect with burpsuite proxy at 127.0.0.1:8080 to check resquest and response in logger or http-history.
+ 
+* in simple word we can say that it track our paylaod is reflecting in response
+ 
+ex: xss-payload-embeded-urls.txt | freq.go 
+
 
 -----------DESCRIPTION---------------
 The code you provided is a Go programming language code that implements a tool called "frequester." Here's an overview of what the code does:
